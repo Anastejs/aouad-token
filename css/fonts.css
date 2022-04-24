@@ -1,0 +1,35 @@
+@font-face {
+	font-family: "FolkRough-Regular";
+	src: url("../fonts/Folk Rough Offc W00 Regular.woff2") format('woff2'),
+	url("../fonts/Folk Rough Offc W00 Regular.woff") format('woff');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "FolkRough-Light";
+	src: url("../fonts/Folk Rough Offc W00 Light.woff2") format('woff2'),
+	url("../fonts/Folk Rough Offc W00 Light.woff") format('woff');
+	font-weight: 300;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Barlow Condensed";
+	src: url("../fonts/Barlow Condensed Regular.woff2") format('woff2'),
+	url("../fonts/Barlow Condensed Regular.woff") format('woff');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Hachi Maru Pop";
+	src: url("../fonts/HachiMaruPop-Regular.woff2") format('woff2'),
+	url("../fonts/HachiMaruPop-Regular.woff") format('woff');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}

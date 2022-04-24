@@ -1,0 +1,413 @@
+@media (max-width: 991px) {
+    .account{
+        padding: 100px 0 160px;
+    }
+    .account__title{
+        font-size: 76px;
+        line-height: 105px;
+    }
+    .account__content {
+        grid-template-columns: 100%;
+    }
+    .account__text {
+        order: 1;
+        grid-column: initial;
+    }
+    .account__text--accent {
+        order: 3;
+        grid-column: initial;
+    }
+    .account__profile-wrapper {
+        order: 2;
+        grid-column: initial;
+        grid-row: initial;
+        margin-top: 20px;
+        margin-bottom: 53px;
+    }
+}
+@media (max-width: 767px) {
+    .container{
+        padding: 0 20px;
+    }
+    .account{
+        padding-bottom: 145px;
+    }
+    .account__title{
+        font-size: 65px;
+        line-height: 95px;
+        margin-bottom: 30px;
+    }
+    .account__text{
+        font-size: 23px;
+        margin-bottom: 35px;
+    }
+    .account__text--accent{
+        font-size: 22px;
+    }
+    .account__profile-wrapper{
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .account__profile-up{
+        grid-template-columns: 100%;
+    }
+}
+
+/* styles for acc form */
+@media (max-width: 767px) {
+    .account__profile-title,
+    .photo-field,
+    .label-name{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .photo-field{
+        margin-bottom: 20px;
+    }
+    .label-account{
+        width: 100%;
+    }
+    .label-account:nth-child(3),
+    .label-account:nth-child(4),
+    .label-account:nth-child(5){
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 574px) {
+    .account__title {
+        font-size: 58px;
+        line-height: 85px;
+        margin-bottom: 30px;
+    }
+    .account__profile-title {
+        font-size: 35px;
+    }
+    .label-name{
+        width: 100%;
+    }
+}
+
+@media (max-width: 430px) {
+    .account{
+        padding: 80px 0 110px;
+    }
+    .account__title{
+        font-size: 52px;
+        line-height: 83px;
+        margin-bottom: 20px;
+    }
+    .account__text{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+    .account__profile-wrapper{
+        margin-bottom: 36px;
+    }
+    .account__profile-title {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .input,
+    .input::placeholder{
+        font-size: 16px;
+        line-height: 29px;
+    }
+    .input-account,
+    .input-account::placeholder{
+        font-size: 18px;
+    }
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media (max-width: 991px) {
+    .instruction__wrapper {
+        padding: 20px 20px 30px;
+    }
+    .instruction__title{
+        font-size: 58px;
+    }
+    .instruction__subtitle {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .instruction__text{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .instruction__text--title{
+        font-size: 24px !important;
+        line-height: 38px !important;
+    }
+}
+@media (max-width: 767px) {
+    .instruction{
+        padding-bottom: 145px;
+    }
+    .instruction__title{
+        font-size: 46px;
+        padding-bottom: 48px;
+    }
+
+}
+@media (max-width: 574px) {
+    .instruction__title {
+        font-size: 44px;
+    }
+    .instruction__wrapper {
+        padding: 10px 10px 20px;
+    }
+}
+@media (max-width: 430px) {
+    .instruction{
+        padding-bottom: 120px;
+    }
+    .instruction__title {
+        font-size: 36px;
+        line-height: 52px;
+        padding-bottom: 40px;
+    }
+    .video {
+        margin-bottom: 10px;
+    }
+    .instruction__subtitle {
+        margin-bottom: 10px;
+    }
+    .instruction__text {
+        font-size: 16px;
+        line-height: 29px;
+    }
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media (max-width: 1048px) {
+    .purchase{
+        padding-bottom: 160px;
+    }
+    .token__wrapper,
+    .purchase__wrapper {
+        grid-template-columns: 100%;
+    }
+    .token__title,
+    .purchase__title {
+        order: 1;
+        grid-column: initial;
+    }
+    .token__text,
+    .purchase__text{
+        order: 1;
+        grid-column: initial;
+        max-width: 100%;
+    }
+    .token__text--accent,
+    .purchase__text--accent{
+        order: 3;
+        grid-column: initial;
+        font-size: 24px;
+        line-height: 39px;
+    }
+    .token__wallet-wrapper,
+    .purchase__wallet-wrapper{
+        order: 2;
+        grid-column: initial;
+        grid-row: initial;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+    .purchase__wallet-title,
+    .token__wallet-title{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 991px) {
+    .token__wrapper,
+    .purchase__wallet-wrapper {
+        margin-top: 30px;
+    }
+    .token__text--accent,
+    .purchase__text--accent {
+        font-size: 23px;
+    }
+    .purchase__text span {
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+@media (max-width: 767px) {
+    .purchase {
+        padding-bottom: 145px;
+    }
+    .purchase__title {
+        font-size: 46px;
+    }
+    .token__wallet-wrapper,
+    .purchase__wallet-wrapper{
+        margin-top: 10px;
+        padding: 30px 20px;
+        margin-bottom: 40px;
+    }
+    .purchase__wallet-title,
+    .token__wallet-title {
+        font-size: 34px;
+    }
+    .token__text,
+    .purchase__text {
+        margin-bottom: 30px;
+        font-size: 22px;
+    }
+    .token__text--accent,
+    .purchase__text--accent {
+        font-size: 19px;
+    }
+    .purchase__text span {
+        font-size: 23px;
+        line-height: 33px;
+    }
+}
+@media (max-width: 574px) {
+    .purchase {
+        padding-bottom: 135px;
+    }
+    .purchase__title {
+        font-size: 38px;
+    }
+    .purchase__wallet-title,
+    .token__wallet-title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .token__text,
+    .purchase__text {
+        font-size: 20px;
+    }
+    .token__text--accent,
+    .purchase__text--accent {
+        font-size: 17px;
+    }
+    .purchase__text span {
+        font-size: 21px;
+        line-height: 30px;
+    }
+}
+@media (max-width: 430px) {
+    .purchase {
+        padding-bottom: 120px;
+    }
+    .purchase__title{
+        font-size: 26px;
+        line-height: 44px;
+    }
+    .purchase__wallet-title,
+    .token__wallet-title {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .purchase__text,
+    .token__text{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .purchase__text span {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .purchase__text--accent,
+    .token__text--accent{
+        font-size: 16px;
+        line-height: 29px;
+    }
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media (max-width: 1048px) {
+    .token__title{
+        margin-top: 0;
+        font-size: 60px;
+    }
+    .token__wrapper{
+        margin: 0;
+        padding: 0;
+    }
+}
+@media (max-width: 991px) {
+    .token{
+        padding-bottom: 90px;
+    }
+}
+@media (max-width: 767px) {
+    .token__title {
+        font-size: 52px;
+    }
+    .token__wallet-wrapper{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+}
+@media (max-width: 574px) {
+    .token__title {
+        font-size: 44px;
+    }
+    .token__wallet-wrapper{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 430px) {
+    .token{
+        padding-bottom: 80px;
+    }
+    .token__title {
+        font-size: 38px;
+        line-height: 52px;
+    }
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media (max-width: 991px) {
+    .footer__content{
+        align-items: stretch;
+    }
+    .footer__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 300px;
+    }
+    .footer__link--mail{
+        align-self: start;
+        margin-right: 0;
+    }
+    .footer__link--support:not(:last-child){
+        margin-right: 0;
+    }
+    .footer__link--support{
+        align-self: end;
+    }
+}
+@media (max-width: 695px) {
+    .footer__content{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer__logo{
+        margin: 0 auto 46px;
+    }
+    .footer__wrapper{
+        margin: 0 auto;
+    }
+    .footer__link--mail{
+        margin-bottom: 46px;
+    }
+}
+@media (max-width: 430px) {
+    .footer__wrapper{
+        margin-left: 36px;
+    }
+    .footer__link--mail{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+    }
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.account__text--accent{
+    margin-bottom: 0;
+}

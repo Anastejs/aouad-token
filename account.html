@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Account</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+
+<section class="account">
+    <div class="wrapper-bg wrapper-bg-1"></div>
+    <div class="container">
+
+        <h1 class="account__title">Personal account</h1>
+        <div class="account__content">
+            <p class="account__text">On&nbsp;this page, you can find out about the possible ways to&nbsp;purchase a&nbsp;token project, as&nbsp;well as&nbsp;exchanges where it&nbsp;is&nbsp;already available for exchange.</p>
+            <p class="account__text">Also, here you can specify personal information about ourselves, contact details and communication channels.</p>
+            <p class="account__text account__text--accent">In&nbsp;the future, when creating an&nbsp;NFT community, it&nbsp;will help to&nbsp;communicate more quickly with other members of&nbsp;the community.</p>
+
+            <div class="account__profile-wrapper">
+                <div class="shadow"></div>
+                <div class="account__profile-up">
+                    <h2 class="account__profile-title">Your Profile</h2>
+                    <label class="photo-field" for="photo">
+                        <img class="account__profile-photo" src="img/avatar.png" alt="avatar" id="preview">
+                        <input class="input-photo" type="file" name="photo" id="photo" accept="image/jpeg, image/png" hidden="hidden">
+                        <button class="photo-btn" id="upload-btn"></button>
+                    </label>
+
+                    <label class="label label-name">Nickname
+                        <input class="input input-account input-name" type="text" placeholder="Your nickname here">
+                        <span class="bottom-line-for-nickname"></span>
+                    </label>
+                    <div class="account__balance-wrapper">
+                        <img class="account__balance-img" src="img/token-balance-logo.png" alt="mini-logo">
+                        <div class="account__balance-wrapper--inner">
+                            <p class="account__balance-text">Token balance</p>
+                            <img class="account__balance-hashtag" src="img/icon/hashtag.svg" alt="hashtag">
+                            <p class="account__balance-text account__balance-text--white">3</p>
+                        </div>
+                    </div>
+                </div>
+                <label class="label label-account">First Name
+                    <input class="input input-account" type="text" placeholder="Kim">
+                    <span class="bottom-line"></span>
+                </label>
+                <label class="label label-account">Last Name
+                    <input class="input input-account" type="text" placeholder="Byung-chul">
+                    <span class="bottom-line"></span>
+                </label>
+                <label class="label label-account label-select">Country
+                    <select class="input input-account select" name="sample">
+                        <option class="input-option" value="1">Source Korean</option>
+                        <option class="input-option" value="2">China</option>
+                    </select>
+                    <span class="bottom-line"></span>
+                </label>
+                <label class="label label-account">Phone
+                    <input class="input input-account" type="tel" placeholder="Your numbers">
+                    <span class="bottom-line"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="instruction">
+    <div class="instruction__content">
+        <div class="container">
+            <h1 class="instruction__title">How to purchase a token on the exchange.</h1>
+            <div class="instruction__wrapper">
+                <div class="video">
+                    <video class="video-item" controls preload="metadata">
+                        <source src="videos/swap-pancake.webm" type="video/webm">
+                        <source src="videos/swap-pancake.avi" type="video/avi">
+                    </video>
+<!--                    <img src="img/icon/play.svg" alt="play">-->
+                </div>
+                <h2 class="instruction__subtitle">Instructions to purchase a token on the exchange:</h2>
+                <p class="instruction__text instruction__text--title">Pancakeswap:</p>
+                <ol>
+                    <li class="instruction__text">Follow the link: <a href="https://pancakeswap.finance/swap" target="_blank">https://pancakeswap.finance/swap</a></li>
+                    <li class="instruction__text">On&nbsp;the site, bind your wallet Metamask or&nbsp;any other you use.</li>
+                    <li class="instruction__text">At&nbsp;the top, click on&nbsp;the "<span>drop arrow</span>" and select the coin for which you will purchase the AOUAD token.</li>
+                    <li class="instruction__text">In&nbsp;the bottom line, click on&nbsp;"<span>drop arrow</span>" and in&nbsp;the search string enter the contract address "<span>0xfdcefe633b641191ebe71511268c79d776a2fee6</span>", in&nbsp;the token string "<span>AOUAD</span>" press "<span>Import</span>", in&nbsp;the window appears and tick "<span>I&nbsp;understand</span>" and click "<span>Import</span>".</li>
+                    <li class="instruction__text">At&nbsp;the top line you will see the amount you plan to&nbsp;purchase the token for.</li>
+                    <li class="instruction__text">Click "<span>Swap</span>". Confirm the operation in&nbsp;your wallet.</li>
+                    <li class="instruction__text">To&nbsp;see the AOUAD token in&nbsp;your wallet, you need to&nbsp;press "<span>Import token</span>" inside the wallet and enter the contract address "<span>0xfdcefe633b641191ebe71511268c79d776a2fee6</span>" and confirm the addition of&nbsp;the token.</li>
+                    <li class="instruction__text">Done. You have purchased the AOUAD token.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="purchase">
+    <div class="wrapper-bg wrapper-bg-2"></div>
+    <div class="purchase__content">
+        <div class="container">
+            <div class="purchase__wrapper">
+                <h1 class="purchase__title">Purchase instructions via the website:</h1>
+                <p class="purchase__text">To&nbsp;track the transaction, in&nbsp;the form of&nbsp;<span>MY&nbsp;Wallets</span> specify the public address of&nbsp;the wallet from which the transfer will be&nbsp;made.</p>
+                <p class="purchase__text">Make a&nbsp;transfer of&nbsp;cryptocurrency to&nbsp;the wallet specified in the form <span>(AOUAD)</span> addresses.</p>
+                <p class="purchase__text">After sending funds and fully confirming your online trust, within <span>24&nbsp;hours</span> tokens will be&nbsp;credited to&nbsp;your wallet balance.</p>
+                <p class="purchase__text purchase__text--accent">Be&nbsp;careful when transferring funds. Always check the network, currency and wallet from and to&nbsp;which you transfer.</p>
+                <p class="purchase__text purchase__text--accent">Cryptocurrency transactions are irreversible and if&nbsp;you send the money to&nbsp;the wrong address&nbsp;&mdash; we&nbsp;can not help you in&nbsp;any way.</p>
+                <p></p>
+
+                <div class="purchase__wallet-wrapper">
+                    <div class="shadow"></div>
+                    <h2 class="purchase__wallet-title">My Wallets</h2>
+                    <label class="label">BTC
+                        <input class="input" type="text" placeholder="Type here...">
+                        <span class="bottom-line"></span>
+                        <button class="copy" onclick="copyInputText(this);"></button>
+                    </label>
+                    <label class="label">ETH
+                        <input class="input" type="text" placeholder="Type here...">
+                        <span class="bottom-line"></span>
+                        <button class="copy" onclick="copyInputText(this);"></button>
+                    </label>
+                    <label class="label">BNB
+                        <input class="input" type="text" placeholder="Type here...">
+                        <span class="bottom-line"></span>
+                        <button class="copy" onclick="copyInputText(this);"></button>
+                    </label>
+                    <label class="label">USDT (TRC20)
+                        <input class="input" type="text" placeholder="Type here...">
+                        <span class="bottom-line"></span>
+                        <button class="copy" onclick="copyInputText(this);"></button>
+                    </label>
+                    <label class="label">USDT (TRC20)
+                        <input class="input" type="text" placeholder="Type here...">
+                        <span class="bottom-line"></span>
+                        <button class="copy" onclick="copyInputText(this);"></button>
+                    </label>
+                    <label class="label">USDT (ERC20)
+                        <input class="input" type="text" placeholder="Type here...">
+                        <span class="bottom-line"></span>
+                        <button class="copy" onclick="copyInputText(this);"></button>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="token">
+    <div class="token__content">
+        <div class="container">
+            <div class="token__wrapper">
+                <div class="token__wallet-wrapper">
+                    <div class="shadow"></div>
+                    <h2 class="token__wallet-title">My Wallets</h2>
+                    <div class="token__address-wrap">
+                        <p class="token__wallet-value">BTC</p>
+                        <p class="token__wallet-address">bc1qjv6wlax9eggepuzxs2juf9g0n226s646yvfajd</p>
+                        <button class="copy" onclick="copyText(this);"></button>
+                        <span class="bottom-line bottom-line-token"></span>
+                    </div>
+                    <div class="token__address-wrap">
+                        <p class="token__wallet-value">ETH</p>
+                        <p class="token__wallet-address">0xD5BC374f3E98eD62aA8B1fA69002a16f7e59c338</p>
+                        <button class="copy" onclick="copyText(this);"></button>
+                        <span class="bottom-line bottom-line-token"></span>
+                    </div>
+                    <div class="token__address-wrap">
+                        <p class="token__wallet-value">BNB</p>
+                        <p class="token__wallet-address">0xD5BC374f3E98eD62aA8B1fA69002a16f7e59c338</p>
+                        <button class="copy" onclick="copyText(this);"></button>
+                        <span class="bottom-line bottom-line-token"></span>
+                    </div>
+                    <div class="token__address-wrap">
+                        <p class="token__wallet-value">USDT (TRC20)</p>
+                        <p class="token__wallet-address">TA8mC7vnuHbJqiQhhJGGvTBjzBCf8MNmta</p>
+                        <button class="copy" onclick="copyText(this);"></button>
+                        <span class="bottom-line bottom-line-token"></span>
+                    </div>
+                    <div class="token__address-wrap">
+                        <p class="token__wallet-value">MATIK</p>
+                        <p class="token__wallet-address">0xD5BC374f3E98eD62aA8B1fA69002a16f7e59c338</p>
+                        <button class="copy" onclick="copyText(this);"></button>
+                        <span class="bottom-line bottom-line-token"></span>
+                    </div>
+                    <div class="token__address-wrap">
+                        <p class="token__wallet-value">USDT (ERC20)</p>
+                        <p class="token__wallet-address">0xD5BC374f3E98eD62aA8B1fA69002a16f7e59c338</p>
+                        <button class="copy" onclick="copyText(this);"></button>
+                        <span class="bottom-line bottom-line-token"></span>
+                    </div>
+                </div>
+
+                <h1 class="token__title">( AOUAD )</h1>
+                <p class="token__text">The token will be&nbsp;rolled out to&nbsp;new exchanges as&nbsp;the number of&nbsp;holders increases and the project develops.</p>
+                <p class="token__text">All funds received from token sales are invested in&nbsp;the development of&nbsp;the project, so&nbsp;the value of&nbsp;the token will only increase, as&nbsp;well as&nbsp;the benefit for token holders.</p>
+                <p class="token__text token__text--accent">P.S. Tokens will be&nbsp;credited to&nbsp;the account only after full confirmation on&nbsp;the network.</p>
+                <p class="token__text token__text--accent">To&nbsp;receive tokens to&nbsp;your wallet, be&nbsp;sure to&nbsp;specify the receiving address on&nbsp;the BNB or&nbsp;MATIK network.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+            <img class="footer__logo" src="img/logo-footer.jpg" alt="logo">
+            <div class="footer__wrapper">
+                <a href="mailto:" class="footer__link footer__link--mail">A.O.U.A.D.PROJECT@GMAIL.COM</a>
+                <a href="tel:" class="footer__link footer__link--support">Support</a>
+                <a href="tel:" class="footer__link footer__link--support">Public</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
